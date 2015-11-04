@@ -9,9 +9,7 @@ describe('#sumColumns', function () {
       [1,2],
     ];
 
-    var expectedOutput = [
-      [2,4],
-    ];
+    var expectedOutput = [2,4];
 
     var actual = sumColumns(input);
 
@@ -28,9 +26,7 @@ describe('#sumColumns', function () {
       [2,4,6],
     ];
 
-    var expectedOutput = [
-      [8, 16, 24]
-    ];
+    var expectedOutput = [8, 16, 24];
 
     var actual = sumColumns(input);
 
