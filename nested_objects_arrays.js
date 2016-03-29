@@ -1,5 +1,12 @@
+function curriculum(data) {
+
+}
+
+function lessonOccurrences(data) {
+
+}
+
 module.exports = {
-  curriculum: function (data) {
-  
-  }
+  curriculum: curriculum,
+  lessonOccurrences: lessonOccurrences
 }
