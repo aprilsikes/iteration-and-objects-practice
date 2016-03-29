@@ -2,7 +2,7 @@ var assert = require('assert');
 var reverse = require('../reverse');
 
 describe('#reverse', function () {
-  xit('reverses the given array', function () {
+  it('reverses the given array', function () {
     var input = [ 4, 5, 6, 7, 8, 9 ];
     var expectedOutput = [ 9, 8, 7, 6, 5, 4 ];
     var actual = reverse(input);

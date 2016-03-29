@@ -17,6 +17,7 @@ __YOU SHOULD COMPLETE THESE IN THE FOLLOWING ORDER__
 1. `reverse.js`
 1. `sum_columns.js`
 1. `transpose.js`
+1. `nested_objects_arrays.js`
 
 You should work through tests one at a time. When you have passed the first test,
 delete the `x` from the next `xit` statement and run the tests again.
