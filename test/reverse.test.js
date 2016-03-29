@@ -9,7 +9,7 @@ describe('#reverse', function () {
     assert.deepEqual(actual, expectedOutput);
   });
 
-  xit('reverses all kinds of arrays', function () {
+  it('reverses all kinds of arrays', function () {
     var input = [ 'a', 'b', 'c', 'd' ];
     var expectedOutput = [ 'd', 'c', 'b', 'a' ];
     var actual = reverse(input);

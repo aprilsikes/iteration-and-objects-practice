@@ -21,7 +21,9 @@ describe('#sumColumns', function () {
       [2,4,6],
       [2,4,6],
     ];
-    var expectedOutput = [8, 16, 24];
+    var expectedOutput = [
+      [8, 16, 24]
+    ];
     var actual = sumColumns(input);
     assert.deepEqual(actual, expectedOutput);
   });
