@@ -2,7 +2,7 @@ var assert = require('assert');
 var sumColumns = require('../sum_columns');
 
 describe('#sumColumns', function () {
-  xit('returns the sum of each "column"', function () {
+  it('returns the sum of each "column"', function () {
     var input = [
       [1,2],
       [1,2],
@@ -14,7 +14,7 @@ describe('#sumColumns', function () {
     assert.deepEqual(actual, expectedOutput);
   });
 
-  xit('can transpose a multi-element array', function () {
+  it('can transpose a multi-element array', function () {
     var input = [
       [2,4,6],
       [2,4,6],

@@ -2,7 +2,7 @@ var assert = require('assert');
 var transpose = require('../transpose');
 
 describe('#transpose', function () {
-  xit('can transpose a 2-element array', function () {
+  it('can transpose a 2-element array', function () {
     var input = [
       [1,2],
       [3,4],
@@ -17,7 +17,7 @@ describe('#transpose', function () {
     assert.deepEqual(actual, expectedOutput);
   });
 
-  xit('can transpose a multi-element array', function () {
+  it('can transpose a multi-element array', function () {
     var input = [
       ['a', 'a', 'a', 'a'],
       ['b', 'b', 'b', 'b'],
