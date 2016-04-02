@@ -32,7 +32,7 @@ describe('NestedObjects', function () {
 
   })
   describe('#lessonOccurrences', function () {
-    xit('returns lessons and the dates they occurred', function () {
+    it('returns lessons and the dates they occurred', function () {
       var expectedOutput = {
         "Orientation" : {
           "Name Games" : [

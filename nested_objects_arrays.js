@@ -19,7 +19,22 @@ function curriculum(data) {
 //    return rObj;
 
 function lessonOccurrences(data) {
-
+  var curriculums = data.units;
+  console.log(curriculums);
+  var rObj = {};
+  curriculums.forEach(function (obj) {
+    rObj[obj.name] = {};
+    obj.lessons.forEach(function (obj2) {
+      console.log(obj2);
+      console.log("*********");
+      console.log(obj2.occurrences);
+      rObj[obj.name][obj2.name] = Object.keys(obj2.occurrences);
+      // return obj2.occurrences;
+      console.log("^^^^^^^^^");
+      console.log(rObj);
+    })
+  })
+  return rObj;
 }
 
 module.exports = {
