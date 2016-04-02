@@ -6,7 +6,7 @@ var getData = require('../nested_objects_arrays');
 
 describe('NestedObjects', function () {
   describe('#curriculum', function () {
-    xit('returns curriculums and their lesson names', function () {
+    it('returns curriculums and their lesson names', function () {
       var expectedOutput = {
         "Orientation" : [
           "Name Games",
